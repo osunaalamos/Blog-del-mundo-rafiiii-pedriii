@@ -1,0 +1,111 @@
+ilustración figcaption {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-style: italic;
+}
+/*  Clases generales */
+body {
+    
+}
+
+article {
+
+}
+
+
+
+#titulo_del_blog {
+   
+}
+
+/* Terminan clases generales  */
+
+/* barra de navegación */
+
+.resaltado {
+
+}
+
+nav>ul>li {
+
+}
+
+nav>ul>li>a {
+
+}
+
+/* fin barra de navegación */
+
+/* footer del blog */
+#footer_blog {
+
+}
+
+/* fin del footer del blog */
+
+/* ilustraciones */
+
+.ilustracion {
+
+}
+
+.ilustracion figcaption {
+ 
+}
+
+/* fin ilustraciones */
+
+<!-- inicia entrada: nombre_del_artículo -->
+<article>
+    <header>
+        <hgroup>
+            <!-- Título del artículo con ícono -->
+            <h2> <img src="assets/images/icono_decorativo.png" alt="Descripción del ícono" height="35px" width="auto"> Título del artículo</h2>
+            <!-- Fecha en la que se escribió el artículo -->
+            <h4>3/2/2022</h4>
+        </hgroup>    
+    </header>
+    <!-- inicia contenido del artículo -->
+    <div>
+        
+        <h3>salud</h3>
+        <p>la salud es algo importante en la vida ya que si quieres estar sano y saludable nesecitas salud.</p>
+
+        <!-- inicia ilustración del artículo -->
+        <figure>
+            <img src="assets/images/ilustracion_1.jpg" alt="ilustracion 1º artículo" height="600px" width="auto">
+            <figcaption>ilustración que representa la salud.</figcaption>
+        </figure>
+        <!-- termina ilustración del artículo -->
+
+    </div>
+    <!-- Termina contenido del artículo -->
+    
+    <footer>
+        <!-- Datos del autor -->
+        <div>
+            <span>Pedro Osuna</span> <a href="http://miredsocial.com/nombredelautor" target="_blank">@nombredelautor en mi_red_social</a>
+        </div>
+        <!-- fin datos del autor -->
+        <!-- bibliografía -->
+        <blockquote>
+            <p></p>
+        </blockquote>
+        <!-- fin bibliografía -->
+    </footer>
+</article>
+<!-- fin entrada: nombre_del_artículo -->
+/* grid */
+section {
+    
+    /* despliégate como  grid */
+    display: grid;
+    /* Crea 12 columnas cada una de una fracción usando la función repeat*/
+    grid-template-columns: repeat(12, 1fr);
+    /* deja que las filas(renglones) ocupen el alto que necesitan */
+    grid-auto-rows: auto;
+    /* añade un espacio entre los elementos del grid de 3rem */
+    gap: 3rem;
+}
+
+/* Termina grid */
